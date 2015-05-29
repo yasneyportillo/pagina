@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+
+	<html>
+	
+		<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="CSS/Style_M.css">
+		<title>Ropas</title>
+
+		</head>
+
+		<bosy>
+			<header>
+
+				<h1>CASA DE MODA</h1>
+				<br><br>
+
+			</header>
+			<div class="Margen">
+				<div class="Link1">
+					<nav class="nav1">
+						<ul>
+							<li><a href="javascript:void(0);" onclick="SINO('Link2', 'Link3', 'Link4', 'LinkP')">Chaquetas</a></li>
+							<li><a href="javascript:void(0);" onclick="SINO2('Link2', 'Link3', 'Link4', 'LinkP')">jeans</a></li>
+							<li><a href="javascript:void(0);" onclick="SINO3('Link2', 'Link3', 'Link4', 'LinkP')">Calzados</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<div id="LinkP"><img src="Imagenes/Chaquetas_Mujer.jpg" width="300" height="150">
+								<img src="Imagenes/Jeans_Mujer.jpg" width="300" height="150">
+								<img src="Imagenes/Calzados_Mujeres.jpg" width="300" height="150">
+				</div>
+
+				<div id="Link2" class="LinkSt">
+					<nav class="nav2">
+						<ul>
+							<li><ruby class="Dis"><img src="Imagenes/Chaquetam1.jpg" width="150" height"250">
+								<rt ><h2>Chaqueta 1</h2></rt>
+							</ruby>
+								<p>Costo $120.000</p><br>
+								<ul>
+							<li><a href="index.html">Comprar</a></li>
+								</ul></li>
+								
+							<li><ruby class="Dis"><img src="Imagenes/Chaquetam2.jpg" width="150" height"250">
+								<rt><h2>Chaqueta 2</h2></rt>
+							</ruby>
+								<p>Costo $220.000</p><br>
+								<ul>
+							<li><a href="index.html">Comprar</a></li>
+								</ul></li>
+						
+							<li><ruby class="Dis"><img src="Imagenes/Chaquetam3.jpg" width="150" height"250">
+								<rt><h2>Chaqueta 3</h2></rt>
+							</ruby>
+								<p>Costo $320.000</p><br>
+								<ul>
+							<li><a href="index.html">Comprar</a></li>
+							</ul></li>					
+						</ul>
+					</nav>
+				</div>
+
+				<div id="Link3" class="LinkSt">
+					<nav class="nav2">
+						<ul>
+							<li><ruby class="Dis"><img src="Imagenes/Jeanm1.jpg" width="150" height"250">
+								<rt ><h2>Jean 1</h2></rt>
+							</ruby>
+								<p>Costo $120.000</p><br>
+								<ul>
+							<li><a href="index.html">Comprar</a></li>
+								</ul></li>
+								
+							<li><ruby class="Dis"><img src="Imagenes/Jeanm2.jpg" width="150" height"250">
+								<rt><h2>Jean 2</h2></rt>
+							</ruby>
+								<p>Costo $220.000</p><br>
+								<ul>
+							<li><a href="index.html">Comprar</a></li>
+								</ul></li>
+						
+							<li><ruby class="Dis"><img src="Imagenes/Jeanm3.jpg" width="150" height"250">
+								<rt><h2>Jean 3</h2></rt>
+							</ruby>
+								<p>Costo $320.000</p><br>
+								<ul>
+							<li><a href="index.html">Comprar</a></li>
+							</ul></li>					
+						</ul>
+					</nav>
+				</div>
+
+				<div id="Link4" class="LinkSt">
+					<nav class="nav2">
+						<ul>
+							<li><ruby class="Dis"><img src="Imagenes/Calzadom1.jpg" width="150" height"250">
+								<rt ><h2>Calzado 1</h2></rt>
+							</ruby>
+								<p>Costo $180.000</p><br>
+								<ul>
+							<li><a href="index.html">Comprar</a></li>
+								</ul></li>
+								
+							<li><ruby class="Dis"><img src="Imagenes/Calzadom2.jpg" width="150" height"250">
+								<rt><h2>Calzado 2</h2></rt>
+							</ruby>
+								<p>Costo $200.000</p><br>
+								<ul>
+							<li><a href="index.html">Comprar</a></li>
+								</ul></li>
+						
+							<li><ruby class="Dis"><img src="Imagenes/Calzadom3.jpg" width="150" height"250">
+								<rt><h2>Calzado 3</h2></rt>
+							</ruby>
+								<p>Costo $230.000</p><br>
+								<ul>
+							<li><a href="index.html">Comprar</a></li>
+							</ul></li>					
+						</ul>
+					</nav>
+				</div>
+
+			</div>
+			<br><br>
+			<footer>
+				
+			</footer>
+		</bosy>
+
+	</html>
+
+	<script type"text/javascript">
+
+function SINO(Link2, Link3, Link4, LinkP) {
+   var ELM1=document.getElementById(Link2)
+   var ELM2=document.getElementById(Link3)
+   var ELM3=document.getElementById(Link4)
+   var ELM4=document.getElementById(LinkP)
+
+   if(ELM1.style.display == 'block') {
+     
+      
+      
+   } else {	ELM1.style.display = 'block'
+      		ELM4.style.display = 'none';
+      		 ELM2.style.display = 'none';
+      		ELM3.style.display = 'none';
+   }}
+
+   function SINO2(Link2, Link3, Link4, LinkP) {
+   var ELM1=document.getElementById(Link2)
+   var ELM2=document.getElementById(Link3)
+   var ELM3=document.getElementById(Link4)
+   var ELM4=document.getElementById(LinkP)
+
+   if(ELM2.style.display == 'block') {
+     
+      
+      
+   } else {	ELM2.style.display = 'block'
+      		ELM4.style.display = 'none';
+      		 ELM1.style.display = 'none';
+      		ELM3.style.display = 'none';
+   }}
+
+   function SINO3(Link2, Link3, Link4, LinkP) {
+   var ELM1=document.getElementById(Link2)
+   var ELM2=document.getElementById(Link3)
+   var ELM3=document.getElementById(Link4)
+   var ELM4=document.getElementById(LinkP)
+
+   if(ELM3.style.display == 'block') {
+     
+      
+      
+   } else {	ELM3.style.display = 'block'
+      		ELM4.style.display = 'none';
+      		 ELM2.style.display = 'none';
+      		ELM1.style.display = 'none';
+   }}
+
+
+</script>

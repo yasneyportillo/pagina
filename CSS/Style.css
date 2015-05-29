@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+	*{	padding:0px;
+		margin:5px;
+		text-align:center;
+	}
+	
+	
+	body{ background: #680d2d;}
+
+	.Entrada{	margin:auto;
+				width:800px;
+				font-family:Georgia, "Times New Roman", Times, serif;
+			}
+	
+
+	.Imgen1 {	background: url("Mujeres.jpg") no-repeat;
+ 		 			
+ 						}
+
+	.Imgen1:hover {	background: url("Aver.jpg") no-repeat;	
+					}
+
+
+	ul, ol{	list-style:none;}
+
+
+
+	 .Entrada .ini li a{	color:#000;
+							text-decoration:none;
+							display: block;
+						
+				}
+
+	.M{	float:left;
+		background-color: #f9fefe;
+			}
+
+	.H{	float:right;
+		background-color: #f9fefe;		
+			}
+
+	.H:hover{background-color:#469192;}
+	.M:hover{background-color:#c455a3;}
+
+	footer{ background-color:;	}
+	.Nomb:hover {font-size: 30px;}
+
+	
+	
